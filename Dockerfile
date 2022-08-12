@@ -1,5 +1,7 @@
 FROM python:3-slim
 
+LABEL org.opencontainers.image.source=https://github.com/clueo8/mythtv-hdhomerun-channel-sync
+
 MAINTAINER clueo8 <clueo8@gmail.com>
 
 WORKDIR /usr/src/app
